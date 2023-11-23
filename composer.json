@@ -1,0 +1,14 @@
+{
+    "name": "aegon/php-refactoring",
+    "description": "PHP refactoring",
+    "require": {
+        "PHP": ">=8.2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6.8",
+        "vimeo/psalm": "^4.30"
+    },
+    "autoload": {
+        "psr-4": {"Language\\": "src/"}
+    }
+}
